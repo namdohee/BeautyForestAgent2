@@ -15,5 +15,10 @@ namespace BeautyForestAgent
         {
             InitializeComponent();
         }
+        public string Title
+        {
+            set { this.Text = value; }
+        }
+
     }
 }
